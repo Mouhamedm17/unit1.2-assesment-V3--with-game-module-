@@ -1,6 +1,6 @@
 import turtle as trtl
 import mPlayer as pl
-import mAsteroid2 as ast
+import mAsteroid as ast
 import mLeaderboard as lb
 import math as m
 

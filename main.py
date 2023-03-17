@@ -27,6 +27,7 @@ def startGame():
     import game as gm
     gm.game()
     playerName = ent_playerName.get()
+    print(playerName)
     return playerName
 
 #add a play button

@@ -24,7 +24,7 @@ ent_playerName.pack(pady=5, padx=100)
 
 #add a function to start the game when the play button is pressed
 def startGame():
-    import game as gm
+    import mGame as gm
     gm.game()
     playerName = ent_playerName.get()
     print(playerName)

@@ -1,9 +1,7 @@
 import turtle as trtl
 import mPlayer as pl
 import mAsteroid as ast
-import mLeaderboard as lb
 import math as m
-
 
   #-------------------Screen variables--------------------------
 wn = trtl.Screen()
@@ -11,7 +9,6 @@ wn = trtl.Screen()
 wn.setup(width=500, height=1000)
 
 #-------------------Turtle timer------------------------------
-global timer
 timer = trtl.Turtle()
 timer.hideturtle()
 timer.penup()
@@ -20,8 +17,6 @@ timer.goto(0,400)
 
 global timerFont
 timerFont = ("Ariel", 50, "normal")
-
-#-------------------score keeper------------------------------
 
 #--------------------initialize scorekeeper------------
 scoreKeeper = trtl.Turtle()
@@ -94,11 +89,9 @@ def game():
 
 
 #-----------------------commands------------------------------
-#timeElapsed()
+#game()
 
-game()
-
-wn.mainloop()
+#wn.mainloop()
 
 #*****THE FUNCTIONS DON'T RUN AT THE SAME TIME
 #look into wn.update() or multithreading

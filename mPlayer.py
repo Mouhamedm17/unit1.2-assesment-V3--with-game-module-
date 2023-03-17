@@ -1,8 +1,4 @@
-#import asteroid as ast
 import turtle as trtl
-#mport game as gm
-#import math as m
-#import leaderboard as lb
 import threading
 
 #-------------------variables--------------------------

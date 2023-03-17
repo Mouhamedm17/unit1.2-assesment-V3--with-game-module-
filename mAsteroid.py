@@ -5,11 +5,15 @@ import random as rand
 asteroidImage = "Image_asteroidImage.gif"
 
 
-
 #--------------initialize screen-----------------------
 wn = trtl.Screen()
 wn.setup(width=500, height=1000)
 wn.addshape(asteroidImage)
+
+#---------------------varaibles------------------------
+speed = 1
+speedCounter = 1
+isHit = False
 
 #---------------initialize asteroid--------------------
 asteroid = trtl.Turtle()
@@ -18,9 +22,6 @@ def init():
     asteroid.penup()
     asteroid.shape(asteroidImage)
 
-speed = 1
-speedCounter = 1
-isHit = False
 #---------------functions-----------------
 
 def Asteroid():
